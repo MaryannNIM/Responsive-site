@@ -1,0 +1,138 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #1d7da7cc;
+  --box-shadow: 10px 10px 4px rgba(1, 4, 34, 0.7);
+  --gradient: radial-gradient(rgb(46, 171, 175) 30%, rgb(58, 184, 42) 100%);
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background: var(--gradient);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10px auto;
+}
+.greeting {
+  margin-top: 40px;
+  padding-top: 50px;
+}
+.about-me {
+  margin-top: 40px;
+  padding-top: 40px;
+}
+.about-paragraph p {
+  padding: 10px auto;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.primary-link {
+  color: white;
+  background: var(--primary-color);
+  border: 1px solid #885df1;
+  border-radius: 4px;
+  display: flex;
+  text-transform: capitalize;
+  padding: 10px;
+  text-decoration: none;
+  justify-content: center;
+  box-shadow: var(--box-shadow);
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: #ffffff;
+  border: 1px solid #885df1;
+  box-shadow: var(--box-shadow);
+  border-radius: 75px;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+.navbar {
+  margin: 0;
+  padding: 7px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
