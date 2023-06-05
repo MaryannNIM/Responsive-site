@@ -8,11 +8,15 @@
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   background: var(--gradient);
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 82px;
+  }
 }
 
 h1,
