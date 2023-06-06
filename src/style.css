@@ -13,11 +13,6 @@ body {
   color: #212529;
   background: var(--gradient);
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 82px;
-  }
-}
 
 h1,
 h2,
@@ -139,4 +134,20 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
 }
